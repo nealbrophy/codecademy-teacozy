@@ -28,6 +28,7 @@ body {
               STYLES
     ============================  */
 
+/*  ----- Header ----- */
 header {
     height: 69px;
     justify-content: space-between;
@@ -56,9 +57,9 @@ a:visited {
     text-decoration: underline;
     color: seashell;
 }
-
+/*  ----- Mission Section  ----- */
 .main {
-    padding-top: 5rem;
+    padding-top: 4rem;
     width: 1200px;
     margin: auto;
 }
@@ -85,7 +86,84 @@ a:visited {
     padding-bottom: .5rem;
 }
 
+/*  ----- Store Section ----- */
+
+#store {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#store h2,
+#store h4 {
+    padding: .5rem;
+}
+
+.items {
+    width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.items span {
+    display: block;
+    text-align: center;
+}
+
 .item img {
     width: 300px;
     height: 200px;
+    padding: 1.4rem 1.4rem .5rem 1.4rem;
+}
+
+/*  ----- Location Section  ----- */
+#locations {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#locations h2 {
+    margin: 15px;
+    padding-top: 50px;
+}
+
+.locations {
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+}
+
+.location h3,
+.location p {
+    padding: 20px;
+}
+
+/*  ----- Contact Section  ----- */
+
+#contact {
+    text-align: center;
+    padding: 15px;
+    heigh: 200px;
+}
+
+#contact h5 {
+    padding: 15px;
+}
+
+/*  ----- Footer  ----- */
+
+footer h5 {
+    padding-left: 20px;
 }
